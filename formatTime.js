@@ -1,5 +1,3 @@
-const chalk = require("chalk");
-
 const formatTime = () => {
   const date = new Date();
   const hour = date.getHours();
