@@ -3,3 +3,4 @@ package-lock.json
 
 # dirs
 node_modules
+tests

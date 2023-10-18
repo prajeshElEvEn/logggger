@@ -4,6 +4,8 @@
 
 a npm package for logging beautiful messages in the terminal.
 
+![Sample](https://i.ibb.co/RQvCcMs/Screenshot-from-2023-10-19-00-46-53.png)
+
 ## installation
 
 ```bash

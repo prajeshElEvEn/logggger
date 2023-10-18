@@ -4,9 +4,9 @@
   "description": "logggger is a Node package for logging beautiful messages with varying levels of importance (log, success, warn, error) in the terminal. It utilizes the power of chalk to add colors to the output for improved readability and distinction between different types of messages.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node .",
-    "dev": "nodemon ."
+    "dev": "nodemon .",
+    "test": "nodemon tests/index.js"
   },
   "bin": "./index.js",
   "keywords": [
