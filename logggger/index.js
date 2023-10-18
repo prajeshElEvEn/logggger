@@ -1,6 +1,6 @@
 const chalk = require("chalk");
 const formatTime = require("./formatTime");
-const fs = require("fs");
+// const fs = require("fs");
 
 const logType = (type, message, color) => {
   const time = formatTime();
@@ -24,10 +24,10 @@ const logType = (type, message, color) => {
       coloredMessage = message;
   }
 
-  const logMessage = `${time} [${type.toUpperCase()}] ${message}\n`;
-  fs.appendFile("logs.txt", logMessage, (err) => {
-    if (err) throw err;
-  });
+  // const logMessage = `${time} [${type.toUpperCase()}] ${message}\n`;
+  // fs.appendFile("logs.txt", logMessage, (err) => {
+  //   if (err) throw err;
+  // });
 
   const consoleMessage = `${coloredTime} ${chalk["bg" + color].bold(
     `[${type.toUpperCase()}]`
